@@ -7,6 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * Creates a Spring Boot Application to run the Pricing Service.
  * TODO: Convert the application from a REST API to a microservice.
  */
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
+
+@EnableEurekaServer
 @SpringBootApplication
 public class PricingServiceApplication {
 
